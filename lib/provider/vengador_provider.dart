@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class VengadorProvider with ChangeNotifier{
+
+  //centralizamos los datos
   String _heroeVengador = 'capitan America';
 
   get getHeroeVengador{

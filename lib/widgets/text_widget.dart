@@ -4,6 +4,12 @@ class TextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('villano');
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text('texto 1'),
+        Text('texto 2')
+      ],
+    );
   }
 }

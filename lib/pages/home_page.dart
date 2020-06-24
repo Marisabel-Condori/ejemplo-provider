@@ -1,3 +1,4 @@
+import 'package:ej_provider1/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'package:ej_provider1/widgets/floatingActionButton_widget.dart';
@@ -11,9 +12,7 @@ import 'package:ej_provider1/widgets/floatingActionButton_widget.dart';
        appBar: AppBar(
          title: Text('iron man')
        ),
-       body: Center(
-         child: Text('Iron manNNN'),
-       ),
+       body:Center(child: TextWidget()),
        floatingActionButton: FloatingActionBWidget(),
      );
    }

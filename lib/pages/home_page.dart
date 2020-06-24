@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'package:ej_provider1/widgets/floatingActionButton_widget.dart';
  
  class HomePage extends StatelessWidget {
    const HomePage({Key key}) : super(key: key);
@@ -10,9 +12,9 @@ import 'package:flutter/material.dart';
          title: Text('iron man')
        ),
        body: Center(
-         child: Text('Iron man'),
+         child: Text('Iron manNNN'),
        ),
-       
+       floatingActionButton: FloatingActionBWidget(),
      );
    }
  }

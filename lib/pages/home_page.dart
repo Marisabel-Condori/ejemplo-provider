@@ -11,9 +11,10 @@ import 'package:provider/provider.dart';
    Widget build(BuildContext context) {
      // almacenamos todos los datos del vengador con la ayuda de provider
      final _nombreHeroeV = Provider.of<VengadorProvider>(context);
+     
      return Scaffold(
        appBar: AppBar(
-         title: Text(_nombreHeroeV.getHeroeVengador)
+         title: Text(_nombreHeroeV.getNombreVen)
        ),
        body:Center(child: TextWidget()),
        floatingActionButton: FloatingActionBWidget(),
